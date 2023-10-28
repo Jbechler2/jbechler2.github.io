@@ -21,10 +21,75 @@ body{
   font-weight: 300;
 }
 
+#contact_form{
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_field{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.form_field label{
+  text-align: left;
+  font-size: 2rem;
+}
+
+.form_field input[type=email]{
+  font-size: 25px;
+  border-radius: 5px;
+  font-family: 'Raleway';
+  background-color: rgb(142, 182, 174);
+  outline: 1px grey;
+  padding: 3px;
+}
+
+.form_field textarea{
+  font-size: 25px;
+  height: 100px;
+  border-radius: 5px;
+  font-family: 'Raleway';
+  background-color: rgb(142, 182, 174);
+  outline: 1px grey;
+  padding: 3px;
+}
+
+.form_field input[type=email]:focus{
+  outline: 2px solid grey;
+}
+
+.form_field textarea:focus{
+  outline: 2px solid grey;
+}
+
+#contact_submit{
+  width: 10%;
+  font-size: 20px;
+  border-radius: 7px;
+  background-color: #021414;
+  color: rgb(240, 235, 235);
+  border: 2px solid rgb(240, 235, 235);
+  padding: 5px;
+}
+
+.content{
+  color: white;
+  margin: 10px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 980px){
   .header{
     padding: 1%;
   }
+  
   h1{
     font-size: 4rem;
     padding-bottom: 0;
@@ -34,5 +99,17 @@ body{
     padding-top: 0;
     margin-top: 0;
     font-size: 2rem
+  }
+
+  #contact_form{
+    width: 100%;
+  }
+
+  .form_field{
+    width: 80%;
+  }
+
+  #contact_submit{
+    width: 50%;
   }
 }
