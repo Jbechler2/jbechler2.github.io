@@ -1,3 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: montserrat;
+}
 nav{
   height: 80px;
   width: 100%;
@@ -41,7 +51,7 @@ a.active,a:hover{
 #check{
   display: none;
 }
-@media (max-width: 1000px){
+@media (max-width: 952px){
   label.logo{
     font-size: 30px;
     padding-left: 50px;
@@ -50,7 +60,7 @@ a.active,a:hover{
     font-size: 16px;
   }
 }
-@media (max-width: 1000px){
+@media (max-width: 858px){
   .checkbtn{
     display: block;
   }
@@ -74,7 +84,7 @@ a.active,a:hover{
   }
   a:hover,a.active{
     background: none;
-    color: #12a1a1;
+    color: #119e9e;
   }
   #check:checked ~ ul{
     left: 0;
