@@ -85,6 +85,12 @@ body{
   text-align: center;
 }
 
+.submit_div{
+  text-align: right;
+  margin: auto;
+  width: 50%;
+}
+
 @media only screen and (max-width: 980px){
   .header{
     padding: 1%;
@@ -110,6 +116,10 @@ body{
   }
 
   #contact_submit{
-    width: 50%;
+    width: 100%;
+  }
+
+  .submit_div{
+    width: 80%;
   }
 }
